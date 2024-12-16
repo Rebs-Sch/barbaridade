@@ -1,0 +1,42 @@
+main{
+    background-color: #FFF4EA;
+    width: 90%;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 45px;
+    color: #27211A;
+
+    margin: 0 0 20px 20px;
+}
+
+ul{
+    list-style: none;
+
+    width: 100%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.recente{
+    margin-bottom: 40px;
+}
+
+li{
+    color: #8B6A47;
+    font-size: 25px;
+    width: 90%;
+}
+
+img{
+    width: 100%;
+
+    border: #27211A solid 2px;
+    border-radius: 15px;
+}

@@ -1,0 +1,61 @@
+main{
+    height: 95dvh;
+}
+
+form{
+    background-color: #FFF4EA;
+    width: 90%;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 40px auto;
+}
+
+.formgroup, .formgroup-grande{
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.formgroup label, .formgroup-grande label{
+    color: #493B2B;
+}
+
+.formgroup-grande label{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.formgroup label{
+    font-size: 20px;
+}
+
+.formgroup-grande input{
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.formgroup-grande input::placeholder{
+    color: #8B6A47;
+    font-size: 20px;
+}
+
+form a{
+    display: block;
+
+    background-color: #68725A;
+
+    text-align: center;
+    font-size: 20px;
+    color: #FFF4EA;
+    
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form a:active, fomr a:visited{
+    color: #FFF4EA;
+}

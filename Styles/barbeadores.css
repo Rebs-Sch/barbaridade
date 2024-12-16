@@ -1,0 +1,35 @@
+main{
+    background-color: #FFF4EA;
+    width: 90%;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 45px;
+}
+
+ul{
+    list-style: none;
+
+    width: 100%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 20px;
+}
+
+li{
+    color: #8B6A47;
+    font-size: 25px;
+    width: 90%;
+}
+
+img{
+    width: 100%;
+
+    border: #27211A solid 2px;
+    border-radius: 15px;
+}

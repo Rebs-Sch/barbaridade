@@ -1,0 +1,93 @@
+@media screen and (max-width: 1150px){
+    .formulario{        
+        flex-direction: column;
+    }
+    
+    .formulario img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1150px){
+    .formulario{
+        flex-direction: row;
+        align-items: center;
+    }
+    .formulario img{
+        width: 50%;
+    }
+
+    form{
+        width: 50%;
+    }
+}
+
+
+
+*{
+    font-size: 27px;
+}
+
+main{
+    height: 100dvh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    background-color: #FFF4EA;
+    
+    width: 70%;
+    padding: 30px;
+    border-radius: 20px;
+    
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.formulario img{
+    border-radius: 15px;
+}
+
+.formgroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+    margin-bottom: 15px;
+}
+
+.formgroup label{
+    color: #493B2B;
+}
+
+.formgroup input, button{
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.formgroup input::placeholder{
+    color: #8B6A47;
+}
+
+.formulario a{
+    display: block;
+
+    background-color: #68725A;
+    color: #FFF4EA;
+
+    text-align: center;
+
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a:active, a:visited{
+    color: #FFF4EA;
+}

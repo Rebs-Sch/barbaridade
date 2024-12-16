@@ -1,0 +1,65 @@
+main{
+    background-color: #FFF4EA;
+
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 45px;
+}
+
+ul{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.item{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+
+    height: 150px;
+    width: 100%;
+}
+
+.item .icone{
+    background-color: #68725A;
+
+    font-size: 70px;
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 150px;
+    width: 200px;
+    border-radius: 10px 0 0 10px;
+}
+
+.item .agendar{
+    background-color: #DCC9A4;
+    font-size: 25px;
+
+    display: flex;
+    align-items: center;
+    
+    height: 100%;
+    width: 100%;
+    padding-left: 30px;
+    border-radius: 0 10px 10px 0;
+}
+
+.agendar a, a:active, a:visited{
+    color: #493B2B;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
